@@ -7,8 +7,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-s', '--stones_per_player',
                     help='Number of random stones per player, default = 10', type=int, default=10)
 parser.add_argument(
-    '-f', '--board_size', help='Field size, for the standard sizes (9, 13, 19), the star points are shown, default = 19', type=int, default=19)
-parser.add_argument('-b', '--place_border_stones', help="By default, no stones will be placed on the border. This option allows it", action='store_true')
+    '-b', '--board_size', help='Board size, for the standard sizes (9, 13, 19), the star points are shown, default = 19', type=int, default=19)
+parser.add_argument('-border', '--place_border_stones', help="By default, no stones will be placed on the border. This option allows it", action='store_true')
 args = parser.parse_args()
 
 stones_per_player = args.stones_per_player
