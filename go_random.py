@@ -8,7 +8,8 @@ parser.add_argument('-s', '--stones_per_player',
                     help='Number of random stones per player, default = 10', type=int, default=10)
 parser.add_argument(
     '-b', '--board_size', help='Board size, for the standard sizes (9, 13, 19), the star points are shown, default = 19', type=int, default=19)
-parser.add_argument('-border', '--place_border_stones', help="By default, no stones will be placed on the border. This option allows it", action='store_true')
+parser.add_argument('-border', '--place_border_stones',
+                    help="By default, no stones will be placed on the border. Setting this option allows it.", action='store_true')
 args = parser.parse_args()
 
 stones_per_player = args.stones_per_player
@@ -34,7 +35,8 @@ stars = {9: [[2, 2], [2, 7], [4, 4], [7, 2], [7, 7]],
 # Iterate over the whole field
 for i in range(board_size):
     for j in range(board_size):
-        on_border = (i == 0 or j == 0 or i == board_size - 1 or j == board_size - 1) and not args.place_border_stones
+        on_border = (i == 0 or j == 0 or i == board_size - 1 or j ==
+                     board_size - 1) and not args.place_border_stones
         # Get an index from row and column
         if args.place_border_stones:
             index = i * board_size + j

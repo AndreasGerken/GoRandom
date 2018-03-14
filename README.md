@@ -26,7 +26,7 @@ python go_random.py
 . . . * . . . . . * . . . . . * . . .
 . . . . . . . . . B . B . . . . . . .
 . . . . . . . . . . . W . . . . . . .
-. . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . .
 ```
 
 The program does not check if all stones are alive. Please check before using the proposed positions.
@@ -51,8 +51,8 @@ There are two options for the python script:
 -s, --stones_per_player : Number of random stones per player, default = 10
 -b, --board_size: Field size, for the standard sizes (9, 13, 19), the
                       star points are shown, default = 19
--border, --place_border_stones: By default, no stones will be placed on the border. Setting this option allows it.
-
+-border, --place_border_stones: By default, no stones will be placed on the border.
+                      Setting this option allows it.
 ```
 Example for 5 stones each on a 13x13 board with border stones:
 ```
