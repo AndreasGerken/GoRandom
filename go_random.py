@@ -52,9 +52,9 @@ for i in range(board_size):
     for j in range(board_size):
         # Check if position is on border
         on_border = (i == 0 or j == 0 or i == board_size - 1 or j ==
-                     board_size - 1) and not args.place_border_stones
+                     board_size - 1) and not place_border_stones
         # Get an index from row and column
-        if args.place_border_stones:
+        if place_border_stones:
             index = i * board_size + j
         else:
             # Move the indices one up to center the board
