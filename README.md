@@ -4,7 +4,8 @@ This python script generates a random initial board position for a variant of th
 The variant avoids the standard opening for more interesting and free games.
 
 ## Usage
-The program can be executed online (https://repl.it/@AndreasGerken/GoRandom, clik on Run) or on your machine. Run it with the  python interpreter.
+The program can be executed online (https://repl.it/@AndreasGerken/GoRandom, clik on Run) or on your machine. Run it with the  python interpreter. As a default, the program places 20 random stones on a 19x19 board.
+
 ```
 python go_random.py
 
