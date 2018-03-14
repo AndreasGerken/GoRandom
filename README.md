@@ -1,6 +1,6 @@
 # GoRandom
 
-This python script generates a random initial board position for a variant of the board game [Go](https://en.wikipedia.org/wiki/Go_(game)) (igo, weiqi, baduk). In the variant, random stones are placed on the board to avoid the standard opening moves and to create a more interesting and free game. In chess there is a comparable variant called [Chess960](https://de.wikipedia.org/wiki/Chess960).
+This python script generates a random initial board position for a variant of the board game [Go](https://en.wikipedia.org/wiki/Go_(game)) (igo, weiqi, baduk). In the variant, random stones are placed on the board before the game to avoid the standard opening moves and to create a more interesting and free game. In chess there is a comparable variant called [Chess960](https://de.wikipedia.org/wiki/Chess960).
 
 ## Usage
 The program can be executed online (https://repl.it/@AndreasGerken/GoRandom, clik on Run) or on your machine with the python interpreter. As a default, the program places 20 random stones on a 19x19 board.
@@ -76,4 +76,6 @@ pip install --user numpy
 ```
 
 ## Credits:
-I found the Idea for this variant in a [Reddit Thread](https://www.reddit.com/r/baduk/comments/7mc30y/ke_jies_comment_related_to_the_alphago_teaching/drt8lra/) and the Komi Variants on [Wikipedia](https://en.wikipedia.org/wiki/Komidashi)
+I found the Idea for this variant in a [Reddit Thread](https://www.reddit.com/r/baduk/comments/7mc30y/ke_jies_comment_related_to_the_alphago_teaching/drt8lra/) and the Komi Variants on [Wikipedia](https://en.wikipedia.org/wiki/Komidashi).
+
+There is a [Reddit Thread](https://www.reddit.com/r/baduk/comments/84az47/gorandom_variant_initial_position_generator/) about this program. Please leave me feedback there.
