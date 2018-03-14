@@ -1,6 +1,6 @@
 # GoRandom
 
-This python script generates a random initial board position for a variant of the board game [Go](https://en.wikipedia.org/wiki/Go_(game)) (igo, weiqi, baduk).
+This python script generates a random initial board position for a variant of the board game [Go](https://en.wikipedia.org/wiki/Go_(game)) (igo, weiqi, baduk), which is comparable with [Chess960](https://de.wikipedia.org/wiki/Chess960).
 The variant avoids the standard opening for more interesting and free games.
 The program can be executed online at https://repl.it/@AndreasGerken/GoRandom or on your computer.
 
