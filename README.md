@@ -2,23 +2,9 @@
 
 This python script generates a random initial board position for a variant of the board game [Go](https://en.wikipedia.org/wiki/Go_(game)) (igo, weiqi, baduk), which is comparable with [Chess960](https://de.wikipedia.org/wiki/Chess960).
 The variant avoids the standard opening for more interesting and free games.
-The program can be executed online at https://repl.it/@AndreasGerken/GoRandom or on your computer.
-
-## Komi
-Since the resulting positions are not equally good for both sides, the Komi (extra points for white) has to be negotiated. There are several options.
-
-### Silent bid
-Both players think of a Komi (positive or negative) for white and say it at the same time or write it down.
-The player who named the lower number plays with white and the named Komi. If there is a tie, normal Nigiri could be used.
-
-### Auction system
-The players do an "auction" for the Komi and can outbid each other. When one player does not want to go higher, he accepts and plays with black.
-
-### Pie rule
-One player chooses komi, and the other player chooses whether to play black or white.
 
 ## Usage
-The program can be executed online (https://repl.it/@AndreasGerken/GoRandom) or on your machine. Run the with the python interpreter.
+The program can be executed online (https://repl.it/@AndreasGerken/GoRandom, clik on Run) or on your machine. Run it with the  python interpreter.
 ```
 python go_random.py
 
@@ -42,6 +28,19 @@ B . . . . . . . . . . . . . . . . . .
 . . . . . . . . . . . . . . . . . . .
 . . . . . . . . . . . . . . . . . . .
 ```
+
+## Komi
+Since the resulting positions are not equally good for both sides, the Komi (extra points for white) has to be negotiated. There are several options.
+
+### Silent bid
+Both players think of a Komi (positive or negative) for white and say it at the same time or write it down.
+The player who named the lower number plays with white and the named Komi. If there is a tie, normal Nigiri could be used.
+
+### Auction system
+The players do an "auction" for the Komi and can outbid each other. When one player does not want to go higher, he accepts and plays with black.
+
+### Pie rule
+One player chooses komi, and the other player chooses whether to play black or white.
 
 
 ### Options
