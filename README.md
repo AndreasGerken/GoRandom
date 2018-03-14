@@ -75,3 +75,6 @@ python go_random.py -s 5 -f 13
 ```
 pip install --user numpy
 ```
+
+## Credits:
+I found the Idea for this variant in a [Reddit Thread](https://www.reddit.com/r/baduk/comments/7mc30y/ke_jies_comment_related_to_the_alphago_teaching/drt8lra/) and the Komi Variants on [Wikipedia](https://en.wikipedia.org/wiki/Komidashi)
